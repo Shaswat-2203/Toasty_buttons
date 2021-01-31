@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/error"
+        android:onClick="showtoast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Error button"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="5dp"
+        android:background="#E71C23"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        />
+    <Button
+        android:id="@+id/warning"
+        android:onClick="showtoast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="warning button"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="5dp"
+        android:background="#EEC213"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        />
+    <Button
+        android:id="@+id/success"
+        android:onClick="showtoast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="success button"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="5dp"
+        android:background="#45CE30"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        />
+    <Button
+        android:id="@+id/info"
+        android:onClick="showtoast"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="info button"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginHorizontal="5dp"
+        android:background="#0A79DF"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="#333945"
+        android:onClick="showtoast"
+        android:text="image button"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp" />
+
+</LinearLayout>
